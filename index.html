@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guichet.com</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header id="navbar">
+        <img id="logo" src="./assets/logo.png" alt="logo">
+        <nav>
+            <a href="/">
+                <img src="./assets/Guichet-magazine-logo.png" alt="">
+                <h5>Guichet Magazine</h3>
+            </a>
+            <a href="/">
+                <img src="./assets/icon-question.png" alt="">
+                <h5>Qui sommes-nous?</h3>
+            </a>
+            <button>
+                <img src="./assets/icon-basket.png" alt="">
+                <h5>Panier</h5>
+            </button>
+        </nav>
+    </header>
+    <nav id="sub-navbar">
+        <a href="/">Accueil</a>
+        <a href="/">concerts & festivals</a>
+        <a href="/">Theatre & Humour</a>
+        <a href="/">Formations</a>
+        <a href="/">Salons et congres</a>
+        <a href="/">Famille et Loisirs</a>
+        <a href="/">Sport</a>
+        <a href="/">Cinema</a>
+        <a href="/">Voyage</a>
+        <button>
+            <h5>Guichet Store</h5>
+        </button>
+    </nav>
+    <section id="hero-section">
+        <button class="carossel-button">
+            <img src="./assets/icon-left.png" alt="">
+        </button>
+        <div id="carossel">
+            <div id="image-container">
+
+            </div>
+            <div class="nav-viewer">
+                <div id="active-nav-crsl"></div>
+                <div class="nav-crsl"></div>
+                <div class="nav-crsl"></div>
+                <div class="nav-crsl"></div>
+                <div class="nav-crsl"></div>
+            </div>
+        </div>
+        <button class="carossel-button">
+            <img src="./assets/icon-right.png" alt="">
+        </button>
+    </section>
+    <section id="cards-section">
+        <div class="diviser">
+            <div class="line">
+            </div>
+            <button class="filled"><i class="fas fa-border-all"></i></button>
+            <button class="outlined"><i class="fas fa-list"></i></button>
+        </div>
+        
+        <div class="cards-holder">
+            <div class="ticket"> 
+                <div class="poster">
+                    <img class="poster-image" src="./assets/poste.png" alt="">
+                    <div class="circles">
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                    </div>
+                </div>
+                <div class="type-ticket">
+                    <p>Theatre & Humour</p>
+                </div>
+                <div class="show-title">
+                    <p>Rire Musique avec Hassan el fed et Lhaj Said Berrada a Meknes</p>
+                </div>
+                <div class="adress-time">
+                    <p class="adress"><i class="fas fa-map-marker-alt"></i>Meknes, Centre Mohamed Mennouni</p>
+                    <p class="time"><i class="far fa-clock"></i>02 j 10 h 01 m 38 s</p>
+                </div>
+                <div class="price-guichet">
+                    <div class="price">
+                        <p class="price-label">A partire de:</p>
+                        <p class="price-tag">50 dh</p>
+                    </div>
+                    <div class="guichet">
+                        <button class="unactive-button">Guichet Ferme</button>
+                    </div>
+                </div>
+            </div>
+            <div class="ticket"> 
+                <div class="poster">
+                    <img class="poster-image" src="./assets/img-tckt-2.jpeg" alt="">
+                    <div class="circles">
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                    </div>
+                </div>
+                <div class="type-ticket">
+                    <p>Theatre & Humour</p>
+                </div>
+                <div class="show-title">
+                    <p>La grande soiree du Slam francphone</p>
+                </div>
+                <div class="adress-time">
+                    <p class="adress"><i class="fas fa-map-marker-alt"></i>Rabat, Cinema Renaissance</p>
+                    <p class="time"><i class="far fa-clock"></i>02 j 10 h 01 m 38 s</p>
+                </div>
+                <div class="price-guichet">
+                    <div class="price">
+                        <p class="price-label">A partire de:</p>
+                        <p class="price-tag">250 dh</p>
+                    </div>
+                    <div class="guichet">
+                        <button class="active-button">J'achete</button>
+                    </div>
+                </div>
+            </div>
+            <div class="ticket"> 
+                <div class="poster">
+                    <img class="poster-image" src="./assets/poste.png" alt="">
+                    <div class="circles">
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                    </div>
+                </div>
+                <div class="type-ticket">
+                    <p>Theatre & Humour</p>
+                </div>
+                <div class="show-title">
+                    <p>Rire Musique avec Hassan el fed et Lhaj Said Berrada a Meknes</p>
+                </div>
+                <div class="adress-time">
+                    <p class="adress"><i class="fas fa-map-marker-alt"></i>Meknes, Centre Mohamed Mennouni</p>
+                    <p class="time"><i class="far fa-clock"></i>02 j 10 h 01 m 38 s</p>
+                </div>
+                <div class="price-guichet">
+                    <div class="price">
+                        <p class="price-label">A partire de:</p>
+                        <p class="price-tag">50 dh</p>
+                    </div>
+                    <div class="guichet">
+                        <button class="unactive-button">Guichet Ferme</button>
+                    </div>
+                </div>
+            </div>
+            <div class="ticket"> 
+                <div class="poster">
+                    <img class="poster-image" src="./assets/img-tckt-2.jpeg" alt="">
+                    <div class="circles">
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                    </div>
+                </div>
+                <div class="type-ticket">
+                    <p>Theatre & Humour</p>
+                </div>
+                <div class="show-title">
+                    <p>La grande soiree du Slam francphone</p>
+                </div>
+                <div class="adress-time">
+                    <p class="adress"><i class="fas fa-map-marker-alt"></i>Rabat, Cinema Renaissance</p>
+                    <p class="time"><i class="far fa-clock"></i>02 j 10 h 01 m 38 s</p>
+                </div>
+                <div class="price-guichet">
+                    <div class="price">
+                        <p class="price-label">A partire de:</p>
+                        <p class="price-tag">250 dh</p>
+                    </div>
+                    <div class="guichet">
+                        <button class="active-button">J'achete</button>
+                    </div>
+                </div>
+            </div>
+            <div class="ticket"> 
+                <div class="poster">
+                    <img class="poster-image" src="./assets/poste.png" alt="">
+                    <div class="circles">
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                    </div>
+                </div>
+                <div class="type-ticket">
+                    <p>Theatre & Humour</p>
+                </div>
+                <div class="show-title">
+                    <p>Rire Musique avec Hassan el fed et Lhaj Said Berrada a Meknes</p>
+                </div>
+                <div class="adress-time">
+                    <p class="adress"><i class="fas fa-map-marker-alt"></i>Meknes, Centre Mohamed Mennouni</p>
+                    <p class="time"><i class="far fa-clock"></i>02 j 10 h 01 m 38 s</p>
+                </div>
+                <div class="price-guichet">
+                    <div class="price">
+                        <p class="price-label">A partire de:</p>
+                        <p class="price-tag">50 dh</p>
+                    </div>
+                    <div class="guichet">
+                        <button class="unactive-button">Guichet Ferme</button>
+                    </div>
+                </div>
+            </div>
+            <div class="ticket"> 
+                <div class="poster">
+                    <img class="poster-image" src="./assets/img-tckt-2.jpeg" alt="">
+                    <div class="circles">
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                    </div>
+                </div>
+                <div class="type-ticket">
+                    <p>Theatre & Humour</p>
+                </div>
+                <div class="show-title">
+                    <p>La grande soiree du Slam francphone</p>
+                </div>
+                <div class="adress-time">
+                    <p class="adress"><i class="fas fa-map-marker-alt"></i>Rabat, Cinema Renaissance</p>
+                    <p class="time"><i class="far fa-clock"></i>02 j 10 h 01 m 38 s</p>
+                </div>
+                <div class="price-guichet">
+                    <div class="price">
+                        <p class="price-label">A partire de:</p>
+                        <p class="price-tag">250 dh</p>
+                    </div>
+                    <div class="guichet">
+                        <button class="active-button">J'achete</button>
+                    </div>
+                </div>
+            </div>
+            <div class="ticket"> 
+                <div class="poster">
+                    <img class="poster-image" src="./assets/poste.png" alt="">
+                    <div class="circles">
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                    </div>
+                </div>
+                <div class="type-ticket">
+                    <p>Theatre & Humour</p>
+                </div>
+                <div class="show-title">
+                    <p>Rire Musique avec Hassan el fed et Lhaj Said Berrada a Meknes</p>
+                </div>
+                <div class="adress-time">
+                    <p class="adress"><i class="fas fa-map-marker-alt"></i>Meknes, Centre Mohamed Mennouni</p>
+                    <p class="time"><i class="far fa-clock"></i>02 j 10 h 01 m 38 s</p>
+                </div>
+                <div class="price-guichet">
+                    <div class="price">
+                        <p class="price-label">A partire de:</p>
+                        <p class="price-tag">50 dh</p>
+                    </div>
+                    <div class="guichet">
+                        <button class="unactive-button">Guichet Ferme</button>
+                    </div>
+                </div>
+            </div>
+            <div class="ticket"> 
+                <div class="poster">
+                    <img class="poster-image" src="./assets/img-tckt-2.jpeg" alt="">
+                    <div class="circles">
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                    </div>
+                </div>
+                <div class="type-ticket">
+                    <p>Theatre & Humour</p>
+                </div>
+                <div class="show-title">
+                    <p>La grande soiree du Slam francphone</p>
+                </div>
+                <div class="adress-time">
+                    <p class="adress"><i class="fas fa-map-marker-alt"></i>Rabat, Cinema Renaissance</p>
+                    <p class="time"><i class="far fa-clock"></i>02 j 10 h 01 m 38 s</p>
+                </div>
+                <div class="price-guichet">
+                    <div class="price">
+                        <p class="price-label">A partire de:</p>
+                        <p class="price-tag">250 dh</p>
+                    </div>
+                    <div class="guichet">
+                        <button class="active-button">J'achete</button>
+                    </div>
+                </div>
+            </div>
+            <div class="ticket"> 
+                <div class="poster">
+                    <img class="poster-image" src="./assets/poste.png" alt="">
+                    <div class="circles">
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                    </div>
+                </div>
+                <div class="type-ticket">
+                    <p>Theatre & Humour</p>
+                </div>
+                <div class="show-title">
+                    <p>Rire Musique avec Hassan el fed et Lhaj Said Berrada a Meknes</p>
+                </div>
+                <div class="adress-time">
+                    <p class="adress"><i class="fas fa-map-marker-alt"></i>Meknes, Centre Mohamed Mennouni</p>
+                    <p class="time"><i class="far fa-clock"></i>02 j 10 h 01 m 38 s</p>
+                </div>
+                <div class="price-guichet">
+                    <div class="price">
+                        <p class="price-label">A partire de:</p>
+                        <p class="price-tag">50 dh</p>
+                    </div>
+                    <div class="guichet">
+                        <button class="unactive-button">Guichet Ferme</button>
+                    </div>
+                </div>
+            </div>
+            <div class="ticket"> 
+                <div class="poster">
+                    <img class="poster-image" src="./assets/img-tckt-2.jpeg" alt="">
+                    <div class="circles">
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                    </div>
+                </div>
+                <div class="type-ticket">
+                    <p>Theatre & Humour</p>
+                </div>
+                <div class="show-title">
+                    <p>La grande soiree du Slam francphone</p>
+                </div>
+                <div class="adress-time">
+                    <p class="adress"><i class="fas fa-map-marker-alt"></i>Rabat, Cinema Renaissance</p>
+                    <p class="time"><i class="far fa-clock"></i>02 j 10 h 01 m 38 s</p>
+                </div>
+                <div class="price-guichet">
+                    <div class="price">
+                        <p class="price-label">A partire de:</p>
+                        <p class="price-tag">250 dh</p>
+                    </div>
+                    <div class="guichet">
+                        <button class="active-button">J'achete</button>
+                    </div>
+                </div>
+            </div>
+            <div class="ticket"> 
+                <div class="poster">
+                    <img class="poster-image" src="./assets/poste.png" alt="">
+                    <div class="circles">
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                    </div>
+                </div>
+                <div class="type-ticket">
+                    <p>Theatre & Humour</p>
+                </div>
+                <div class="show-title">
+                    <p>Rire Musique avec Hassan el fed et Lhaj Said Berrada a Meknes</p>
+                </div>
+                <div class="adress-time">
+                    <p class="adress"><i class="fas fa-map-marker-alt"></i>Meknes, Centre Mohamed Mennouni</p>
+                    <p class="time"><i class="far fa-clock"></i>02 j 10 h 01 m 38 s</p>
+                </div>
+                <div class="price-guichet">
+                    <div class="price">
+                        <p class="price-label">A partire de:</p>
+                        <p class="price-tag">50 dh</p>
+                    </div>
+                    <div class="guichet">
+                        <button class="unactive-button">Guichet Ferme</button>
+                    </div>
+                </div>
+            </div>
+            <div class="ticket"> 
+                <div class="poster">
+                    <img class="poster-image" src="./assets/img-tckt-2.jpeg" alt="">
+                    <div class="circles">
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                    </div>
+                </div>
+                <div class="type-ticket">
+                    <p>Theatre & Humour</p>
+                </div>
+                <div class="show-title">
+                    <p>La grande soiree du Slam francphone</p>
+                </div>
+                <div class="adress-time">
+                    <p class="adress"><i class="fas fa-map-marker-alt"></i>Rabat, Cinema Renaissance</p>
+                    <p class="time"><i class="far fa-clock"></i>02 j 10 h 01 m 38 s</p>
+                </div>
+                <div class="price-guichet">
+                    <div class="price">
+                        <p class="price-label">A partire de:</p>
+                        <p class="price-tag">250 dh</p>
+                    </div>
+                    <div class="guichet">
+                        <button class="active-button">J'achete</button>
+                    </div>
+                </div>
+            </div>
+            <div class="ticket"> 
+                <div class="poster">
+                    <img class="poster-image" src="./assets/poste.png" alt="">
+                    <div class="circles">
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                    </div>
+                </div>
+                <div class="type-ticket">
+                    <p>Theatre & Humour</p>
+                </div>
+                <div class="show-title">
+                    <p>Rire Musique avec Hassan el fed et Lhaj Said Berrada a Meknes</p>
+                </div>
+                <div class="adress-time">
+                    <p class="adress"><i class="fas fa-map-marker-alt"></i>Meknes, Centre Mohamed Mennouni</p>
+                    <p class="time"><i class="far fa-clock"></i>02 j 10 h 01 m 38 s</p>
+                </div>
+                <div class="price-guichet">
+                    <div class="price">
+                        <p class="price-label">A partire de:</p>
+                        <p class="price-tag">50 dh</p>
+                    </div>
+                    <div class="guichet">
+                        <button class="unactive-button">Guichet Ferme</button>
+                    </div>
+                </div>
+            </div>
+            <div class="ticket"> 
+                <div class="poster">
+                    <img class="poster-image" src="./assets/img-tckt-2.jpeg" alt="">
+                    <div class="circles">
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                    </div>
+                </div>
+                <div class="type-ticket">
+                    <p>Theatre & Humour</p>
+                </div>
+                <div class="show-title">
+                    <p>La grande soiree du Slam francphone</p>
+                </div>
+                <div class="adress-time">
+                    <p class="adress"><i class="fas fa-map-marker-alt"></i>Rabat, Cinema Renaissance</p>
+                    <p class="time"><i class="far fa-clock"></i>02 j 10 h 01 m 38 s</p>
+                </div>
+                <div class="price-guichet">
+                    <div class="price">
+                        <p class="price-label">A partire de:</p>
+                        <p class="price-tag">250 dh</p>
+                    </div>
+                    <div class="guichet">
+                        <button class="active-button">J'achete</button>
+                    </div>
+                </div>
+            </div>
+            <div class="ticket"> 
+                <div class="poster">
+                    <img class="poster-image" src="./assets/poste.png" alt="">
+                    <div class="circles">
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                    </div>
+                </div>
+                <div class="type-ticket">
+                    <p>Theatre & Humour</p>
+                </div>
+                <div class="show-title">
+                    <p>Rire Musique avec Hassan el fed et Lhaj Said Berrada a Meknes</p>
+                </div>
+                <div class="adress-time">
+                    <p class="adress"><i class="fas fa-map-marker-alt"></i>Meknes, Centre Mohamed Mennouni</p>
+                    <p class="time"><i class="far fa-clock"></i>02 j 10 h 01 m 38 s</p>
+                </div>
+                <div class="price-guichet">
+                    <div class="price">
+                        <p class="price-label">A partire de:</p>
+                        <p class="price-tag">50 dh</p>
+                    </div>
+                    <div class="guichet">
+                        <button class="unactive-button">Guichet Ferme</button>
+                    </div>
+                </div>
+            </div>
+            <div class="ticket"> 
+                <div class="poster">
+                    <img class="poster-image" src="./assets/img-tckt-2.jpeg" alt="">
+                    <div class="circles">
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                    </div>
+                </div>
+                <div class="type-ticket">
+                    <p>Theatre & Humour</p>
+                </div>
+                <div class="show-title">
+                    <p>La grande soiree du Slam francphone</p>
+                </div>
+                <div class="adress-time">
+                    <p class="adress"><i class="fas fa-map-marker-alt"></i>Rabat, Cinema Renaissance</p>
+                    <p class="time"><i class="far fa-clock"></i>02 j 10 h 01 m 38 s</p>
+                </div>
+                <div class="price-guichet">
+                    <div class="price">
+                        <p class="price-label">A partire de:</p>
+                        <p class="price-tag">250 dh</p>
+                    </div>
+                    <div class="guichet">
+                        <button class="active-button">J'achete</button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="waranty-section">
+            <div class="waranty-part">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M64 64C28.7 64 0 92.7 0 128v64c0 8.8 7.4 15.7 15.7 18.6C34.5 217.1 48 235 48 256s-13.5 38.9-32.3 45.4C7.4 304.3 0 311.2 0 320v64c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V320c0-8.8-7.4-15.7-15.7-18.6C541.5 294.9 528 277 528 256s13.5-38.9 32.3-45.4c8.3-2.9 15.7-9.8 15.7-18.6V128c0-35.3-28.7-64-64-64H64zm64 112l0 160c0 8.8 7.2 16 16 16H432c8.8 0 16-7.2 16-16V176c0-8.8-7.2-16-16-16H144c-8.8 0-16 7.2-16 16zM96 160c0-17.7 14.3-32 32-32H448c17.7 0 32 14.3 32 32V352c0 17.7-14.3 32-32 32H128c-17.7 0-32-14.3-32-32V160z"/></svg>
+                <h5>Achetez des tickets</h5>
+                <p>Achetez des tickets de qualite pour les meilleurs evenements en toute securite !</p>
+            </div>
+            <div class="waranty-part">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M173.8 5.5c11-7.3 25.4-7.3 36.4 0L228 17.2c6 3.9 13 5.8 20.1 5.4l21.3-1.3c13.2-.8 25.6 6.4 31.5 18.2l9.6 19.1c3.2 6.4 8.4 11.5 14.7 14.7L344.5 83c11.8 5.9 19 18.3 18.2 31.5l-1.3 21.3c-.4 7.1 1.5 14.2 5.4 20.1l11.8 17.8c7.3 11 7.3 25.4 0 36.4L366.8 228c-3.9 6-5.8 13-5.4 20.1l1.3 21.3c.8 13.2-6.4 25.6-18.2 31.5l-19.1 9.6c-6.4 3.2-11.5 8.4-14.7 14.7L301 344.5c-5.9 11.8-18.3 19-31.5 18.2l-21.3-1.3c-7.1-.4-14.2 1.5-20.1 5.4l-17.8 11.8c-11 7.3-25.4 7.3-36.4 0L156 366.8c-6-3.9-13-5.8-20.1-5.4l-21.3 1.3c-13.2 .8-25.6-6.4-31.5-18.2l-9.6-19.1c-3.2-6.4-8.4-11.5-14.7-14.7L39.5 301c-11.8-5.9-19-18.3-18.2-31.5l1.3-21.3c.4-7.1-1.5-14.2-5.4-20.1L5.5 210.2c-7.3-11-7.3-25.4 0-36.4L17.2 156c3.9-6 5.8-13 5.4-20.1l-1.3-21.3c-.8-13.2 6.4-25.6 18.2-31.5l19.1-9.6C65 70.2 70.2 65 73.4 58.6L83 39.5c5.9-11.8 18.3-19 31.5-18.2l21.3 1.3c7.1 .4 14.2-1.5 20.1-5.4L173.8 5.5zM272 192a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM1.3 441.8L44.4 339.3c.2 .1 .3 .2 .4 .4l9.6 19.1c11.7 23.2 36 37.3 62 35.8l21.3-1.3c.2 0 .5 0 .7 .2l17.8 11.8c5.1 3.3 10.5 5.9 16.1 7.7l-37.6 89.3c-2.3 5.5-7.4 9.2-13.3 9.7s-11.6-2.2-14.8-7.2L74.4 455.5l-56.1 8.3c-5.7 .8-11.4-1.5-15-6s-4.3-10.7-2.1-16zm248 60.4L211.7 413c5.6-1.8 11-4.3 16.1-7.7l17.8-11.8c.2-.1 .4-.2 .7-.2l21.3 1.3c26 1.5 50.3-12.6 62-35.8l9.6-19.1c.1-.2 .2-.3 .4-.4l43.2 102.5c2.2 5.3 1.4 11.4-2.1 16s-9.3 6.9-15 6l-56.1-8.3-32.2 49.2c-3.2 5-8.9 7.7-14.8 7.2s-11-4.3-13.3-9.7z"/></svg>
+                <h5>Notre garantie 100%</h5>
+                <p>Eliminez les risques et assurez-vous une transaction securisee et protegee en faisant affaire avec guichet.com</p>
+            </div>
+            <div class="waranty-part">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M256 48C141.1 48 48 141.1 48 256v40c0 13.3-10.7 24-24 24s-24-10.7-24-24V256C0 114.6 114.6 0 256 0S512 114.6 512 256V400.1c0 48.6-39.4 88-88.1 88L313.6 488c-8.3 14.3-23.8 24-41.6 24H240c-26.5 0-48-21.5-48-48s21.5-48 48-48h32c17.8 0 33.3 9.7 41.6 24l110.4 .1c22.1 0 40-17.9 40-40V256c0-114.9-93.1-208-208-208zM144 208h16c17.7 0 32 14.3 32 32V352c0 17.7-14.3 32-32 32H144c-35.3 0-64-28.7-64-64V272c0-35.3 28.7-64 64-64zm224 0c35.3 0 64 28.7 64 64v48c0 35.3-28.7 64-64 64H352c-17.7 0-32-14.3-32-32V240c0-17.7 14.3-32 32-32h16z"/></svg>                
+                <h5>Support 24/24H</h5>
+                <p>+212 6 45 765 765 / sav@guichet.ma</p>
+            </div>
+        </div>
+
+    </section>
+    <section class="footer">
+        <div class="footer-left-side">
+            <div class="logo-holder">
+                <img src="./assets/footer-logo.png" alt="">
+            </div>
+            <p class="paragraphe">Un site de billetterie nouvelle génération vous offrant la possibilité d’acheter en ligne des tickets pour les événements de votre choix. Sa vocation est de vous proposer l’offre de concerts, sports, spectacles, cinéma, festivals, théâtre, humour, voyages et evasions la plus large du Maroc en collaboration avec les organisateurs d’événements.</p>
+           <div class="app">
+                <p class="title-app">NOS APPLICATIONS</p>
+                <div class="button-holder">
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l280.8-161.2-60.1-60.1L104.6 499z"/></svg>
+                        <p>Guichet Android</p>
+                    </button>
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M255.9 120.9l9.1-15.7c5.6-9.8 18.1-13.1 27.9-7.5 9.8 5.6 13.1 18.1 7.5 27.9l-87.5 151.5h63.3c20.5 0 32 24.1 23.1 40.8H113.8c-11.3 0-20.4-9.1-20.4-20.4 0-11.3 9.1-20.4 20.4-20.4h52l66.6-115.4-20.8-36.1c-5.6-9.8-2.3-22.2 7.5-27.9 9.8-5.6 22.2-2.3 27.9 7.5l8.9 15.7zm-78.7 218l-19.6 34c-5.6 9.8-18.1 13.1-27.9 7.5-9.8-5.6-13.1-18.1-7.5-27.9l14.6-25.2c16.4-5.1 29.8-1.2 40.4 11.6zm168.9-61.7h53.1c11.3 0 20.4 9.1 20.4 20.4 0 11.3-9.1 20.4-20.4 20.4h-29.5l19.9 34.5c5.6 9.8 2.3 22.2-7.5 27.9-9.8 5.6-22.2 2.3-27.9-7.5-33.5-58.1-58.7-101.6-75.4-130.6-17.1-29.5-4.9-59.1 7.2-69.1 13.4 23 33.4 57.7 60.1 104zM256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm216 248c0 118.7-96.1 216-216 216-118.7 0-216-96.1-216-216 0-118.7 96.1-216 216-216 118.7 0 216 96.1 216 216z"/></svg>
+                        <p>Guichet iOS</p>
+                    </button>
+                </div>
+           </div>
+            <div class="combo-box">
+                <label for="country-select">Vous êtes à l'étranger:</label>
+                <select id="country-select">
+                  <option value="maroc">Maroc</option>
+                  <option value="france">France</option>
+                  <option value="belgique">Belgique</option>
+                </select>
+            </div>              
+        </div>
+        <div class="footer-right-side">
+            <div class="upper-side">
+                <div class="left-text-section">
+                    <h4>GUICHET</h4>
+                    <p>Concerts & Festivals</p>
+                    <p>Theatre & Humour</p>
+                    <p>Formations</p>
+                    <p>Salons et Congres</p>
+                    <p>Famille & Loisirs</p>
+                    <p>Sport</p>
+                    <p>Cinema</p>
+                    <p>Voyage</p>
+                </div>
+                <div class="middle-text-section">
+                    <h4>GSTORE</h4>
+                    <p>Coffrets Cadeaux</p>
+                    <p>Bon plan</p>
+                    <p>Sport</p>
+                    <p>Gaming</p>
+                    <p>Hight-Tech</p>
+                    <p>Produits derivees</p>
+                    <p>Tendances et Deguisements</p>
+                </div>
+                <div class="right-text-section">
+                    <h4>A PROPS</h4>
+                    <p>Qui sommes nous?</p>
+                    <p>Contactez-nous</p>
+                    <p>Guichet Magazine</p>
+                    <p>Mentions legales</p>
+                </div>
+            </div>
+            <div class="bottom-side">
+                <h4>Inscrivez-vous a la newsletter Guichet</h4>
+                <p>Vous avez en amont des meilleurs plans, concerts, festivals, etc</p>
+                <div class="email-holder">
+                    <input type="email" placeholder="Adresse email">
+                    <button>S'INSCRIRE</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sub-footer">
+        <div class="sub-footer-part">
+            <p>Copyright 2023 &#169; Guichet.ma - Tous droits reserves.</p>
+        </div>
+        <div class="sub-footer-part">
+            <img src="./assets/logo_cmi.png" alt="">
+            <img id="cashplus" src="./assets/Cashplus Logo.png" alt="">
+            <img id="master-card" src="./assets/MasterCard SecureCode-01.svg" alt="">
+            <img id="visa" src="./assets/Verified by Visa-01.svg" alt="">
+            <div class="vl"></div> 
+            <img src="./assets/cndp.jpg" alt="">
+        </div>
+        <div class="sub-footer-part">
+            <button id="facebook"><img src="./assets/facebook.svg" alt=""></button>
+            <button id="instagram"><img src="./assets/instagram.svg" alt=""></button>
+            <button id="linkedin"><img src="./assets/linkedin.svg" alt=""></button>
+            <button id="twitter"><img src="./assets/twitter.svg" alt=""></button>
+        </div>
+    </section>
+    <div class="gradient-end">
+        
+    </div>
+</body>
+</html>
